@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section>
+        <div class="input-part">
+
+            <input id="one" placeholder="Enter First Number">
+            <input id="two" placeholder="Enter Second Number ">
+        </div>
+
+        <!-- <input type="number" name="" id="one" placeholder="Enter First Number">
+        <input type="number" name="" id="two" placeholder="Enter First Number"> -->
+
+        <div class="myButton">
+
+            <button onclick="cal()" class="btn">ADD</button>
+            <button onclick="cal()" class="btn">SUB</button>
+            <button onclick="cal()" class="btn">MULTIPLY</button>
+            <button onclick="cal()" class="btn" id="divid">DIVIDE</button>
+        </div>
+
+        <!-- <h2 id="res" style="display: none"><input id="add"> </h2> -->
+        <div >
+            <h3 id="resA" style="display: none;">Result:<input id="add" style="display: none;"> </h3>
+            <h3 id="resS" style="display: none;">Result:<input id="sub"> </h3>
+            <h3 id="resM" style="display: none;">Result:<input id="multi"> </h3>
+            <h3 id="resD" style="display: none;">Result:<input id="divi"> </h3>
+        </div>
+    </section>
+</body>
+<script src="/script.js"></script>
+</html>
